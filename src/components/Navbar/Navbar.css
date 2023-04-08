@@ -1,0 +1,67 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  nav button:hover {
+    text-decoration: underline;
+  }
+  
+  nav span {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+  nav img {
+    margin-left: 20px;
+    border-radius: 50%;
+  }
+    
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    nav button {
+      margin: 10px 0;
+    }
+  
+    nav img {
+      margin: 10px 0;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    nav {
+      padding: 10px;
+    }
+  
+    nav button {
+      font-size: 14px;
+    }
+  
+    nav span {
+      font-size: 14px;
+    }
+  }
+  
